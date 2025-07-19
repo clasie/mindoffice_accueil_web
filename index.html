@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="exercices.png">  
+    <title>MindOffice.be</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+        p {
+            font-size: 1rem;
+            color: #e67e22;
+            margin-top: 0.5rem;
+            margin-bottom: 16px;
+        }
+        img {
+            margin-top: 1rem;
+            width: 250px;
+            height: auto;
+            box-shadow: 5px 5px 15px rgba(83, 27, 27, 0.3);
+        }
+        .qrcode {
+            margin-top: 1rem;
+            width: 148px;
+            height: auto;
+            box-shadow: 5px 5px 103px #E67E0B;
+        }
+        .btn {
+            margin-top: 1rem;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #e67e22;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .point {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            background-color: #fff;
+            transition: all 0.3s ease;
+            box-shadow: 2px 4px 15px #E67E29;
+        }
+        .point h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .contenux {
+            display: none;
+            margin-top: 10px;
+        }
+        .contenux img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .texte_presentation {
+            margin-top: 10px;
+            color: black;
+            font-size: 15px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body> 
+    <h1><font style="color:#e67e22">M</font>ind<font style="color:#e67e22">O</font>ffice.be</h1>
+    <p>info@MindOffice.be</p>
+    <img class="qrcode" src="mindoffice.png" alt="Illustration">
+    <p>Pour que les connaissances se développent librement et se partagent sans limite</p>
+
+    <div class="point">
+        <h3>Présentation synthétique de la web application <b><u>Ganesha</u></b></h3>
+        <div class="contenu">
+            <p class="texte_presentation">
+                Cette <strong>application gratuite</strong> vous propose <strong>une quarantaine de questionnaires</strong> prêts à l’emploi pour vous entraîner efficacement. Vous pouvez aussi <strong>demander des questionnaires personnalisés</strong> en écrivant à <strong>info@MindOffice.be</strong>.
+            </p>
+
+            <p><img src="sample.jpg" alt="Illustration"></p>     
+
+            <p class="texte_presentation">
+                Sélectionnez un questionnaire, <strong>répondez aux questions</strong> et <strong>classez-les par difficulté</strong> : <strong>facile</strong>, <strong>moyen</strong>, <strong>difficile</strong> ou <strong>très difficile</strong>. Entraînez-vous ensuite selon un niveau ciblé ou mélangez-les pour plus de variété.
+            </p>       
+            <p>
+                <a href="https://www.mindoffice.be/accessibility/" target="_blank" class="btn">
+                    <strong>Démarrer l'application</strong>
+                </a>
+            </p>            
+
+            <p class="texte_presentation">
+                Un <strong>service complémentaire</strong> peut vous envoyer chaque jour par e-mail <strong>une ou plusieurs questions</strong> issues de vos questionnaires favoris. <strong>Entraînez-vous régulièrement</strong>, simplement en <strong>ouvrant vos mails</strong>, sans connexion nécessaire.
+            </p>   
+        </div>
+    </div>
+</body>
+</html>
